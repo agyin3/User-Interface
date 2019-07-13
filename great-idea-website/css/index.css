@@ -64,3 +64,130 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* General Styling */
+
+body {
+	width: 80vw;
+	margin: 0 auto;
+}
+
+ul,li,img,div {
+	display: inline-block;
+}
+
+h1 {
+	font-size: 4em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+p {
+	font-size: 18px;
+}
+
+
+/* Header Styling */
+
+nav {
+	display: inline-block;
+	height: 100px;
+}
+
+ul {
+	display: inline-block;
+	margin-top: 25px;
+}
+
+ul li {
+	display: inline-block;
+	padding: 0 40px;
+}
+
+a {
+	text-decoration: none;
+	color: #bbb;
+}
+
+.logo {
+	float: right;
+	margin-top: 15px;
+	margin-left: 150px;
+}
+
+.title-container {
+	width: 45%;
+	text-align: center;
+	padding: 100px;
+	vertical-align: center;
+}
+
+.title-image {
+	margin-left: 15%;
+}
+
+/* Main Content Styling */ 
+
+main {
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+.top-content {
+	margin-top: 30px;
+	position: relative;
+	width: 45%;
+}
+
+.top-content:nth-child(2) {
+	float: right;
+	margin-left: 5%;
+}
+
+.lower-content {
+	width: 33%;
+	margin-bottom: 30px;
+	padding: 0 20px;
+}
+
+#first {
+	padding: 0;
+}
+
+.middle-img {
+	width: 100%;
+	margin: 50px auto;
+}
+
+/* Contact Styling */
+
+.contact {
+	margin-top: 30px;
+}
+
+address {
+	line-height: 1.5;
+}
+
+address p {
+	font-size: 16px;
+}
+
+address p:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* Footer Styling */
+
+footer {
+	margin-top: 30px;
+	text-align: center;
+}
+
+footer p {
+	font-size: 14px;
+}
