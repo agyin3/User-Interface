@@ -65,6 +65,11 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+
+/* Font Import */ 
+
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+
 /* General Styling */
 
 body {
@@ -79,9 +84,11 @@ ul,li,img,div {
 h1 {
 	font-size: 4em;
 	text-align: center;
+	font-family: 'Audiowide', cursive;
 }
 
 h2 {
+	font-family: 'Audiowide', cursive;
 	font-size: 1.5em;
 }
 
@@ -94,7 +101,11 @@ p {
 
 nav {
 	display: inline-block;
-	height: 100px;
+	width: 80vw;
+	background-color: dodgerblue;
+	margin-bottom: 25px;
+	position: fixed;
+	z-index: 1000;
 }
 
 ul {
@@ -104,7 +115,7 @@ ul {
 
 ul li {
 	display: inline-block;
-	padding: 0 40px;
+	padding: 0 40px 25px;
 }
 
 a {
@@ -115,7 +126,8 @@ a {
 .logo {
 	float: right;
 	margin-top: 15px;
-	margin-left: 150px;
+	margin-left: 100px;
+	padding-right: 40px;
 }
 
 .title-container {
